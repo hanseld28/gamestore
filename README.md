@@ -1,6 +1,6 @@
 # Games Store
 
-Projeto de banco de dados para um e-commerce de jogos 
+Projeto de banco de dados para e-commerce de jogos eletrônicos.
 
 
 ## Modelos
