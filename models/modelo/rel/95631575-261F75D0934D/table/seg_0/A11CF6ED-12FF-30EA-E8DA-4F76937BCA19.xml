@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A11CF6ED-12FF-30EA-E8DA-4F76937BCA19" directorySegmentName="seg_0" name="COMPRAS">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<pkName>CMP_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_USU_ID" id="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>F7D2DE1E-F027-CD3D-AE2B-E98F207AB20D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="602CC0B5-1895-C9AB-06E7-2C79EACDB081" referredColumn="F7D2DE1E-F027-CD3D-AE2B-E98F207AB20D"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_FPG_ID" id="09F84B9C-26F3-389A-5AC0-BA2F339A02BB">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 17:47:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>9DA6CA38-1544-B847-E159-518C0481502A</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0501734B-515E-3161-4888-F3C658BFC1C2" referredColumn="9DA6CA38-1544-B847-E159-518C0481502A"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_DATA" id="8D8737C5-F441-56A5-F80B-042309645B38">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-02-20 19:17:57 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_VALOR_TOTAL" id="DDCCADA2-C1AB-F930-F2F6-6647A0DE6484">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 17:25:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="59B65707-7859-DA63-C037-902B113789EF" name="CMP_PK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EC4B852A-93E6-B028-738B-451623EE0152" name="CMP_USU_FK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>0B8810C6-6AC3-68CB-8CC2-10D255D0F176</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0E4B8F79-B6EE-BBD5-59DA-E05629A67B6D" name="COMPRAS_FORMAS_DE_PAGAMENTO_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 17:47:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="09F84B9C-26F3-389A-5AC0-BA2F339A02BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

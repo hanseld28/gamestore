@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="6AC8635B-A658-05D0-3AD0-1F53C1B33A60" directorySegmentName="seg_0" name="GENEROS">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>539B7A57-11A5-5A6A-5D6A-6D6EEB0F8D56</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<pkName>GNR_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Coluna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="GNR_ID" id="AD081B0A-B342-8A8A-FB67-2F0C6B8AFFC2">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>C338769F-99A7-C19E-11E8-E4A03F07A6B5</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="GNR_NOME" id="2C77B183-9166-9AE1-739B-CF62C8547AE0">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>251BEDA9-5BAB-A574-2983-C0DF9F07AD1F</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="31C46428-8D46-6252-9AE3-8CF117F2F809" name="GNR_PK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>F8B9A0C6-D349-A645-244D-FFAA9B1A5C38</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AD081B0A-B342-8A8A-FB67-2F0C6B8AFFC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

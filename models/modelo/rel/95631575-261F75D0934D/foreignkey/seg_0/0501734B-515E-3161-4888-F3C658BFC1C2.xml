@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="0501734B-515E-3161-4888-F3C658BFC1C2" directorySegmentName="seg_0" name="COMPRAS_FORMAS_DE_PAGAMENTO_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 17:47:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<containerWithKeyObject>A11CF6ED-12FF-30EA-E8DA-4F76937BCA19</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>0E4B8F79-B6EE-BBD5-59DA-E05629A67B6D</localFKIndex>
+<keyObject>7E9F783A-2F50-67A6-A91D-9A24D49CB292</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

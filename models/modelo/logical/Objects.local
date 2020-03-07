@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E5340799-EED1-65DA-3919-066D6D95FEDB" name="CLASSIFICACOES_INDICATIVAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B787AF6F-DEB6-8A68-375E-B2F7035306F9" name="Compras" seqName="seg_0"/>
+   <object objectType="Entity" objectID="34137A9D-4B25-FD08-47C2-530D7898DB5D" name="DESENVOLVEDORAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6020067-AF33-9B60-E613-11D3AC914669" name="DISTRIBUIDORAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="00636749-E1BC-1546-E644-AE15232B4F80" name="EDITORAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="66CA95CC-A2D7-83EC-967E-B502E9BDDFA2" name="FORMAS_DE_PAGAMENTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="539B7A57-11A5-5A6A-5D6A-6D6EEB0F8D56" name="GENEROS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C0900B7C-9A7D-91B0-BB82-CDA217EAF5FA" name="JOGOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8E56CB81-A40C-165F-E815-D3699395CB85" name="Usuarios" seqName="seg_0"/>
+   <object objectType="Relation" objectID="54D30DEA-E9CC-F670-D2E7-0810609A04A7" name="CLASSIFICACOES_JOGOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DE2023AA-26BA-07E4-9292-9CAC900670A7" name="GENEROS_JOGOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="309830FC-0D62-92C3-DD53-CCD252F0497C" name="ITENS_DE_COMPRA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C963F386-85C2-A8C6-4BDB-6F6C1805BD81" name="JOGOS_DESENVOLVIDOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="57C93D1D-0555-10B0-16E8-CA8F0537C17B" name="JOGOS_DISTRIBUIDOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AE6A98BB-3BF3-8904-2E2B-B3D92B701025" name="JOGOS_ELABORADOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="38CEC44D-E876-8F0A-8CC9-2E321770C0B7" name="POSSUI" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FA43C8BC-4BC9-A9AA-63C4-B448DA2591BB" name="REALIZA" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSSUI" id="38CEC44D-E876-8F0A-8CC9-2E321770C0B7" directorySegmentName="seg_0">
+<createdBy>Ana Caroline</createdBy>
+<createdTime>2020-03-06 02:58:11 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B787AF6F-DEB6-8A68-375E-B2F7035306F9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>66CA95CC-A2D7-83EC-967E-B502E9BDDFA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

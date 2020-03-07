@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A5B71776-B161-2D4C-67FB-D8BB02E279B7" containerWithKeyObject="3A2AAEB2-C888-574C-89D4-8208F6BB8620" localFKIndex="318B2763-0E4E-6FE9-B793-E4B47A23D753" name="JDS_JGS_FK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>C963F386-85C2-A8C6-4BDB-6F6C1805BD81</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<referredTableLongName>JOGOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BEEFB229-24A5-0BD4-AAE0-343128A6B785</referredTableID>
+<keyObject>B47BB13A-B2BF-70FE-969B-16A069C4AD4A</keyObject>
+<referredKeyID>B47BB13A-B2BF-70FE-969B-16A069C4AD4A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>JGS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

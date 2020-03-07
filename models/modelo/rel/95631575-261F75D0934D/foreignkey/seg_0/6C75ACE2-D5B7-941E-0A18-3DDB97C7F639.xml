@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="6C75ACE2-D5B7-941E-0A18-3DDB97C7F639" directorySegmentName="seg_0" name="ITENS_DE_COMPRA_JOGOS_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 17:28:22 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<containerWithKeyObject>9B8C3044-C121-1658-1175-4221A5C96DEB</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>B6E5D20F-F258-1A3A-D49A-B5EC406664F9</localFKIndex>
+<keyObject>B47BB13A-B2BF-70FE-969B-16A069C4AD4A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

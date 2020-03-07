@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E56CB81-A40C-165F-E815-D3699395CB85" name="Usuarios">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:23:54 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="USU_ID" id="8558BD57-DEF3-FFF9-7259-7057354A849A">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:24:08 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_NICK" id="4042A20F-AB2D-7B05-9EB5-4A0917B5F5CA">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:24:29 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_P_NOME" id="7EB0CE2E-FF28-F948-3BAB-B4FDACDE2E64">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:25:15 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_M_NOME" id="4F14437A-C354-5ABC-26CC-21B08693CCBA">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-02-28 12:35:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_U_NOME" id="342C6DA7-8210-AF2A-F77D-58A5F794D8E1">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-02-28 12:35:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_DT_NASC" id="9CE5D89F-ED10-0A73-BE96-B27F170BC83D">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:25:33 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_SENHA" id="07C0604B-87DC-C53D-F9C3-73A59AD879A1">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:25:43 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_EMAIL" id="C649B4D3-FB9A-9422-C1B4-89481885AD0F">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:25:59 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USU_DATA_CRIACAO" id="FE7B57A6-A76F-DE81-63CE-29E8821C3C11">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:27:49 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09367256-3212-2B93-E756-380E73FD4F05" name="Usuarios PK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:24:27 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8558BD57-DEF3-FFF9-7259-7057354A849A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

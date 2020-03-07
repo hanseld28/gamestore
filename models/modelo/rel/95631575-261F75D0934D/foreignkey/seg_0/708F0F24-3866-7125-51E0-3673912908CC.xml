@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="708F0F24-3866-7125-51E0-3673912908CC" containerWithKeyObject="BEEFB229-24A5-0BD4-AAE0-343128A6B785" localFKIndex="19DC1633-5952-5457-2F26-333264D68411" name="JGS_CIS_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-02-20 18:47:58 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<referredTableLongName>CLASSIFICACOES_INDICATIVAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57773562-5615-3C0D-16F6-310358CDEF55</referredTableID>
+<keyObject>027C9A37-4D39-8EB6-C1A0-F55F4E7A99D5</keyObject>
+<referredKeyID>027C9A37-4D39-8EB6-C1A0-F55F4E7A99D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CIS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

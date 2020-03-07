@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7B201B2-DF69-CBB5-327E-A1204C97BB08" containerWithKeyObject="3A2AAEB2-C888-574C-89D4-8208F6BB8620" localFKIndex="98E42F5B-52C0-E1D3-DC58-A758672A4B44" name="JDS_DVD_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-02-20 19:03:43 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<referredTableLongName>DESENVOLVEDORAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D4AA9DB-8940-F177-0FB3-62F8360BB176</referredTableID>
+<keyObject>4C1CDED8-F74D-739A-ECA5-4FCE8CE069D3</keyObject>
+<referredKeyID>4C1CDED8-F74D-739A-ECA5-4FCE8CE069D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DVD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

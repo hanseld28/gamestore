@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLASSIFICACOES_JOGOS" id="54D30DEA-E9CC-F670-D2E7-0810609A04A7" directorySegmentName="seg_0">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:21:35 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5340799-EED1-65DA-3919-066D6D95FEDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0900B7C-9A7D-91B0-BB82-CDA217EAF5FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

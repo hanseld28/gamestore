@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="57773562-5615-3C0D-16F6-310358CDEF55" name="CLASSIFICACOES_INDICATIVAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A11CF6ED-12FF-30EA-E8DA-4F76937BCA19" name="COMPRAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D4AA9DB-8940-F177-0FB3-62F8360BB176" name="DESENVOLVEDORAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD9F9043-D822-1919-7C6E-FA82FF260031" name="DISTRIBUIDORAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4AE48EDC-0AB4-D808-40C3-5E0EB7B41229" name="EDITORAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="99903C73-EB25-6BC7-3EDD-DF0908C41A31" name="FORMAS_DE_PAGAMENTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="6AC8635B-A658-05D0-3AD0-1F53C1B33A60" name="GENEROS" seqName="seg_0"/>
+   <object objectType="Table" objectID="205F904D-290D-7BEA-5C28-B069F8894111" name="GENEROS_JOGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B8C3044-C121-1658-1175-4221A5C96DEB" name="ITENS_DE_COMPRA" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEEFB229-24A5-0BD4-AAE0-343128A6B785" name="JOGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A2AAEB2-C888-574C-89D4-8208F6BB8620" name="JOGOS_DESENVOLVIDOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C9B9FD13-3E59-32A3-A116-CC9307B61D9E" name="JOGOS_DISTRIBUIDOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C2FECB27-DF34-0A4A-032F-89D91468FEE5" name="Usuarios" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="602CC0B5-1895-C9AB-06E7-2C79EACDB081" name="CMP_USU_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0501734B-515E-3161-4888-F3C658BFC1C2" name="COMPRAS_FORMAS_DE_PAGAMENTO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F4DC94DC-3475-F66D-7A6A-35F761F20CA6" name="GJS_GNR_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8DAD66C9-3B1A-D2B6-3A7B-BBDA3B283F18" name="GJS_JGS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E7A8E1C2-4F74-4F21-9B8E-E3D6336BECD5" name="ITENS_DE_COMPRA_COMPRAS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6C75ACE2-D5B7-941E-0A18-3DDB97C7F639" name="ITENS_DE_COMPRA_JOGOS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D7B201B2-DF69-CBB5-327E-A1204C97BB08" name="JDS_DVD_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A5B71776-B161-2D4C-67FB-D8BB02E279B7" name="JDS_JGS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="789011E5-FEB8-CC9D-7CD4-F6798781F551" name="JDT_DBR_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2B631F44-2036-DBAB-2816-0D5B4DAB4289" name="JDT_JGS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="708F0F24-3866-7125-51E0-3673912908CC" name="JGS_CIS_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EA44DDDB-89EE-73B6-0B35-70EF71C17A0E" name="JGS_EDT_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

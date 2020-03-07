@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9B9FD13-3E59-32A3-A116-CC9307B61D9E" name="JOGOS_DISTRIBUIDOS">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JDT_DBR_ID" id="BA884ED2-826F-D5E5-AFDB-73136CADB6FE">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="789011E5-FEB8-CC9D-7CD4-F6798781F551" referredColumn="089F19AA-0D53-F13F-1024-A1DD493B70B8"/>
+</associations>
+</Column>
+<Column name="JDT_JGS_ID" id="C34570C0-D01E-1934-8E8A-A125C49926CA">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-02-20 18:22:46 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B631F44-2036-DBAB-2816-0D5B4DAB4289" referredColumn="A1917812-3873-2B8C-88F1-E614C4D5CF3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9D02AAB-9F93-9001-AB1A-96284FB09206" name="JDT_PK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA884ED2-826F-D5E5-AFDB-73136CADB6FE"/>
+<colUsage columnID="C34570C0-D01E-1934-8E8A-A125C49926CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E94687A9-EDBE-199B-B785-4E538920E564" name="JDT_DBR_FK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>57C93D1D-0555-10B0-16E8-CA8F0537C17B</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA884ED2-826F-D5E5-AFDB-73136CADB6FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92DC2853-96DB-0806-96EB-2245827220A7" name="JDT_JGS_FK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:22:53 UTC</createdTime>
+<generatorID>57C93D1D-0555-10B0-16E8-CA8F0537C17B</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C34570C0-D01E-1934-8E8A-A125C49926CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

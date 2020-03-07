@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZA" id="FA43C8BC-4BC9-A9AA-63C4-B448DA2591BB" directorySegmentName="seg_0">
+<createdBy>Ana Caroline</createdBy>
+<createdTime>2020-03-06 02:57:24 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E56CB81-A40C-165F-E815-D3699395CB85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B787AF6F-DEB6-8A68-375E-B2F7035306F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

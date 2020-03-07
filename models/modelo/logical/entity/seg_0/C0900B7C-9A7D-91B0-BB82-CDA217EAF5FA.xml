@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="C0900B7C-9A7D-91B0-BB82-CDA217EAF5FA" directorySegmentName="seg_0" name="JOGOS">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:29:28 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<pkName>JOGOS PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Atributo</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_ID" id="AB7D970B-2C70-9863-B223-7112AFF5FAFA">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:29:36 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_TITULO" id="0FFAEB51-73BE-8E9B-A4FC-516753BA407B">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:29:45 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_DESCRICAO" id="41DFA8E5-5478-752E-3E38-D37C8A4EC321">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:29:55 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_SINOPSE" id="1E34418C-2048-67C2-62C3-100CB910B7C0">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:30:04 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_DATA_LANCAMENTO" id="2555C153-0302-5F45-B20B-5E0D7BC4DBE3">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:34:02 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JGS_VALOR" id="ACAC7CFD-C2AB-F341-0AB5-CCC8B573E983">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 16:38:44 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EDT_ID" id="3BA11037-0076-9292-4ED6-C64273F16C02">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:13:53 UTC</createdTime>
+<generatorID>AE6A98BB-3BF3-8904-2E2B-B3D92B701025</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<referedAttribute>30E57B9A-7003-1369-CDA7-154F2FF6689D</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CIS_ID" id="8B2EB4E4-9771-3C9B-4C2C-2BF83FFECE6F">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-02-28 12:35:19 UTC</createdTime>
+<generatorID>54D30DEA-E9CC-F670-D2E7-0810609A04A7</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<referedAttribute>11BA1ECC-95D9-67E9-294F-22730C4316B8</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="193AEAF5-0BF8-120C-BF6C-A6BF41C86433" name="JOGOS PK">
+<createdBy>Fatec</createdBy>
+<createdTime>2020-02-19 17:26:40 UTC</createdTime>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB7D970B-2C70-9863-B223-7112AFF5FAFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

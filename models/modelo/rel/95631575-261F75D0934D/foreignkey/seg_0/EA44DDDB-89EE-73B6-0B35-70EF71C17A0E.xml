@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA44DDDB-89EE-73B6-0B35-70EF71C17A0E" containerWithKeyObject="BEEFB229-24A5-0BD4-AAE0-343128A6B785" localFKIndex="9AB3F7FD-9C4E-EC88-A40B-805E13DD2656" name="JGS_EDT_FK">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-02-20 18:41:07 UTC</createdTime>
+<generatorID>39597835-CC71-DA3C-B258-DEA06DE8006D</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<referredTableLongName>EDITORAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4AE48EDC-0AB4-D808-40C3-5E0EB7B41229</referredTableID>
+<keyObject>C8892C8C-C40A-9965-A390-C66F4271B3CB</keyObject>
+<referredKeyID>C8892C8C-C40A-9965-A390-C66F4271B3CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EDT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

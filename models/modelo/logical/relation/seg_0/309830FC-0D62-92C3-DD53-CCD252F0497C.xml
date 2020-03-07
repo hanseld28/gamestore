@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ITENS_DE_COMPRA" id="309830FC-0D62-92C3-DD53-CCD252F0497C" directorySegmentName="seg_0">
+<createdBy>FATEC</createdBy>
+<createdTime>2020-03-06 16:47:56 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>BANCO</ownerDesignName>
+<engineerTo>
+<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C0900B7C-9A7D-91B0-BB82-CDA217EAF5FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B787AF6F-DEB6-8A68-375E-B2F7035306F9</targetEntity>
+<transferable>true</transferable>
+</Relation>
