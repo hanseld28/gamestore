@@ -7,10 +7,10 @@ Projeto de banco de dados para e-commerce de jogos eletrônicos.
 
 ### 1. Lógico
 
-![Logic model](/resources/modelo_logico.jpg "Modelo lógico do E-commerce de Jogos")
+![Logic model](/artefacts/modelo_logico.jpg "Modelo lógico do E-commerce de Jogos")
 
 
 ### 2. Relacional
 
-![Relational model](/resources/modelo_relacional.jpg "Modelo relacional do E-commerce de Jogos")
+![Relational model](/artefacts/modelo_relacional.jpg "Modelo relacional do E-commerce de Jogos")
 
