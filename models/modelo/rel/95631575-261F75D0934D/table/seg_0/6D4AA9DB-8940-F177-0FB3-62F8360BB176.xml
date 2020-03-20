@@ -64,17 +64,6 @@
 <dataTypeSize>100</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DVD_SOBRE" id="0C3E7171-2620-2926-12E6-C41411CAA869">
-<createdBy>Fatec</createdBy>
-<createdTime>2020-02-19 17:22:53 UTC</createdTime>
-<generatorID>E191AB17-0402-F30F-8DDF-D8B715002E6D</generatorID>
-<ownerDesignName>BANCO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4C1CDED8-F74D-739A-ECA5-4FCE8CE069D3" name="DVD_PK">
