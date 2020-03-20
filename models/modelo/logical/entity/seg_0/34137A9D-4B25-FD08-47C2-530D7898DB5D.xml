@@ -70,16 +70,6 @@
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 </Attribute>
-<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DVD_SOBRE" id="E191AB17-0402-F30F-8DDF-D8B715002E6D">
-<createdBy>Fatec</createdBy>
-<createdTime>2020-02-19 17:01:38 UTC</createdTime>
-<ownerDesignName>BANCO</ownerDesignName>
-<engineerTo>
-<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-</Attribute>
 </attributes>
 <identifiers>
 <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="A128D867-2EEA-D77C-5884-09BCBB72485B" name="DESENVOLVEDORAS PK">

@@ -64,17 +64,6 @@
 <dataTypeSize>100</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DBR_SOBRE" id="A158129C-1CC3-5D51-4B4C-5F2F46A3F9F3">
-<createdBy>Fatec</createdBy>
-<createdTime>2020-02-19 17:22:53 UTC</createdTime>
-<generatorID>40144BAB-CE3F-842B-D1BD-8245095C8256</generatorID>
-<ownerDesignName>BANCO</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5A41955F-500B-D963-DFB8-CCA64CC17C9F" name="DBR_PK">

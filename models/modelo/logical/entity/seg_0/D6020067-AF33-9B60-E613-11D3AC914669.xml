@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6020067-AF33-9B60-E613-11D3AC914669" name="DISTRIBUIDORAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="D6020067-AF33-9B60-E613-11D3AC914669" directorySegmentName="seg_0" name="DISTRIBUIDORAS">
 <createdBy>Fatec</createdBy>
 <createdTime>2020-02-19 16:43:14 UTC</createdTime>
 <ownerDesignName>BANCO</ownerDesignName>
 <engineerTo>
 <item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
 </engineerTo>
+<pkName>DISTRIBUIDORAS PK</pkName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -14,8 +15,43 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DBR_ID" id="7AFAF006-6DF1-8347-B05D-8F5D95EF925A">
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Atributo</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dados</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Primária</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Chave Exclusiva</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>NOT NULL</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Chave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DBR_ID" id="7AFAF006-6DF1-8347-B05D-8F5D95EF925A">
 <createdBy>Fatec</createdBy>
 <createdTime>2020-02-19 16:43:25 UTC</createdTime>
 <ownerDesignName>BANCO</ownerDesignName>
@@ -23,9 +59,8 @@
 <item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
 </engineerTo>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DBR_NOME" id="3E1B1EB7-ACC1-BD81-16F6-B9859F319ECA">
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DBR_NOME" id="3E1B1EB7-ACC1-BD81-16F6-B9859F319ECA">
 <createdBy>Fatec</createdBy>
 <createdTime>2020-02-19 16:44:24 UTC</createdTime>
 <ownerDesignName>BANCO</ownerDesignName>
@@ -34,22 +69,10 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DBR_SOBRE" id="40144BAB-CE3F-842B-D1BD-8245095C8256">
-<createdBy>Fatec</createdBy>
-<createdTime>2020-02-19 16:44:50 UTC</createdTime>
-<ownerDesignName>BANCO</ownerDesignName>
-<engineerTo>
-<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C49BCB57-C251-2410-29BA-A46CBF568313" name="DISTRIBUIDORAS PK">
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="C49BCB57-C251-2410-29BA-A46CBF568313" name="DISTRIBUIDORAS PK">
 <createdBy>Fatec</createdBy>
 <createdTime>2020-02-19 16:44:47 UTC</createdTime>
 <ownerDesignName>BANCO</ownerDesignName>
