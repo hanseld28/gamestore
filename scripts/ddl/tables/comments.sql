@@ -43,8 +43,6 @@ COMMENT ON COLUMN GAMES.DESENVOLVEDORAS.DVD_ID IS
 'Chave primária da tabela DESENVOLVEDORAS, não pode ser nula'; 
 COMMENT ON COLUMN GAMES.DESENVOLVEDORAS.DVD_NOME  IS
 'Nome da empresa desenvolvedora, não pode ser nula'; 
-COMMENT ON COLUMN GAMES.DESENVOLVEDORAS.DVD_SOBRE IS
-'Pequena descrição da empresa desenvolvedora, não pode ser nula';
 
 
 COMMENT ON TABLE GAMES.DISTRIBUIDORAS IS
@@ -53,8 +51,6 @@ COMMENT ON COLUMN GAMES.DISTRIBUIDORAS.DBR_ID IS
 'Chave primária da tabela DISTRIBUIDORAS, não pode ser nula'; 
 COMMENT ON COLUMN GAMES.DISTRIBUIDORAS.DBR_NOME  IS
 'Nome da empresa distribuidora, não pode ser nula'; 
-COMMENT ON COLUMN GAMES.DISTRIBUIDORAS.DBR_SOBRE IS
-'Pequena descrição da empresa distribuidora, não pode ser nula';
 
 
 COMMENT ON TABLE GAMES.EDITORAS IS
