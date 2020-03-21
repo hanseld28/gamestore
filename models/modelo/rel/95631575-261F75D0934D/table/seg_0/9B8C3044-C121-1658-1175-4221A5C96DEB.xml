@@ -75,6 +75,21 @@
 <colAssociation fkAssociation="E7A8E1C2-4F74-4F21-9B8E-E3D6336BECD5" referredColumn="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A"/>
 </associations>
 </Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ITC_CMP_DATA" id="A53F8FC6-B777-0D94-14BB-ABF25CB9572B">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-03-21 01:06:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<delegate>8D8737C5-F441-56A5-F80B-042309645B38</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7A8E1C2-4F74-4F21-9B8E-E3D6336BECD5" referredColumn="8D8737C5-F441-56A5-F80B-042309645B38"/>
+</associations>
+</Column>
 </columns>
 <indexes>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="38F5F04C-95CD-C3ED-B49E-F822AAC673AB" name="ITC_PK">
@@ -87,6 +102,7 @@
 <indexColumnUsage>
 <colUsage columnID="082AB78B-DF5F-1D20-C6DA-443D3930D41D"/>
 <colUsage columnID="6C1E15D8-DD31-2BFA-D307-5C190AD3BCB7"/>
+<colUsage columnID="A53F8FC6-B777-0D94-14BB-ABF25CB9572B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="326EE0AC-7E3E-E745-4368-5A13612A8053" name="ITENS_DE_COMPRA_COMPRAS_FK">
@@ -96,6 +112,7 @@
 <indexState>Foreign Key</indexState>
 <indexColumnUsage>
 <colUsage columnID="6C1E15D8-DD31-2BFA-D307-5C190AD3BCB7"/>
+<colUsage columnID="A53F8FC6-B777-0D94-14BB-ABF25CB9572B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B6E5D20F-F258-1A3A-D49A-B5EC406664F9" name="ITENS_DE_COMPRA_JOGOS_FK">
