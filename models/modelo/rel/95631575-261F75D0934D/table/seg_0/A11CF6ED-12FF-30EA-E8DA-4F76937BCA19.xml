@@ -104,6 +104,7 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A"/>
+<colUsage columnID="8D8737C5-F441-56A5-F80B-042309645B38"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EC4B852A-93E6-B028-738B-451623EE0152" name="CMP_USU_FK">

@@ -35,7 +35,8 @@ COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_JGS_ID IS
 'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela JOGOS, não pode ser nula'; --x
 COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_CMP_USU_ID IS
 'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela COMPRAS, não pode ser nula'; --x
-
+COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_CMP_DATA IS
+'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela COMPRAS, não pode ser nula'; --x
 
 COMMENT ON TABLE GAMES.DESENVOLVEDORAS IS
 'Tabela com dados das empresas desenvolvedoras, não pode ser nula';
