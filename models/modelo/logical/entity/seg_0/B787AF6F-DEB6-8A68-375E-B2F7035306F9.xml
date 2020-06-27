@@ -51,24 +51,16 @@
 </FontObject>
 </fonts>
 <attributes>
-<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CMP_USU_ID" id="35A7044D-AA84-737E-FA5C-41645541553B">
-<createdBy>Ana Caroline</createdBy>
-<createdTime>2020-03-06 03:07:10 UTC</createdTime>
-<ownerDesignName>BANCO</ownerDesignName>
-<engineerTo>
-<item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
-</engineerTo>
-<use>0</use>
-</Attribute>
-<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CMP_FPG_ID" id="A47E5F06-0C57-89F0-7553-B9AAB05E966C">
-<createdBy>FATEC</createdBy>
-<createdTime>2020-03-06 17:01:49 UTC</createdTime>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CMP_ID" id="8B78C2CA-2527-963E-2C6E-45A38244E7DB">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-06-26 17:16:11 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>BANCO</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="95631575-A76A-C188-AD8C-261F75D0934D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 </Attribute>
 <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CMP_DATA" id="AA6E82A0-F339-CC19-8AF4-CB27562CE440">
 <createdBy>Ana Caroline</createdBy>
@@ -123,8 +115,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EF22E16E-9CFF-276D-3AAE-F3315FBEA254</attributeRef>
-<attributeRef>35A7044D-AA84-737E-FA5C-41645541553B</attributeRef>
-<attributeRef>AA6E82A0-F339-CC19-8AF4-CB27562CE440</attributeRef>
+<attributeRef>8B78C2CA-2527-963E-2C6E-45A38244E7DB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -40,6 +40,18 @@
 </FontObject>
 </fonts>
 <columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_ID" id="C216A517-AA51-7985-42A3-69746EE79F40">
+<createdBy>Hansel</createdBy>
+<createdTime>2020-06-26 17:26:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_USU_ID" id="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A">
 <createdBy>Fatec</createdBy>
 <createdTime>2020-02-19 17:22:53 UTC</createdTime>
@@ -79,7 +91,7 @@
 <ownerDesignName>BANCO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CMP_VALOR_TOTAL" id="DDCCADA2-C1AB-F930-F2F6-6647A0DE6484">
@@ -103,8 +115,7 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="3EFC0CD2-CA61-1BD1-F99D-CA33BEA7B31A"/>
-<colUsage columnID="8D8737C5-F441-56A5-F80B-042309645B38"/>
+<colUsage columnID="C216A517-AA51-7985-42A3-69746EE79F40"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EC4B852A-93E6-B028-738B-451623EE0152" name="CMP_USU_FK">
