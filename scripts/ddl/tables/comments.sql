@@ -1,4 +1,5 @@
---COMENTÃ?RIOS DAS TABELAS/COLUNA
+--COMMENTS OF TABLES/COLUMNS
+
 COMMENT ON TABLE GAMES.CLASSIFICACOES_INDICATIVAS IS
 'Tabela com a Classificação indicativa por idade dos jogos';
 COMMENT ON COLUMN GAMES.CLASSIFICACOES_INDICATIVAS.CIS_ID IS
@@ -11,10 +12,12 @@ COMMENT ON COLUMN GAMES.CLASSIFICACOES_INDICATIVAS.CIS_IDADE_MINIMA IS
 
 COMMENT ON TABLE GAMES.COMPRAS IS
 'Tabela com dados das compras realizadas';
+COMMENT ON COLUMN GAMES.COMPRAS.CMP_ID IS
+'Chave primária da tabela COMPRAS';
 COMMENT ON COLUMN GAMES.COMPRAS.CMP_USU_ID IS
-'Chave primária da tabela COMPRAS, uma chave estrangeira que vem da tabela USUARIOS';
+'Chave estrangeira que vem da tabela USUARIOS';
 COMMENT ON COLUMN GAMES.COMPRAS.CMP_FPG_ID  IS
-'Chave primária da tabela COMPRAS, uma chave estrangeira que vem da tabela FORMAS_DE_PAGAMENTO';
+'Chave estrangeira que vem da tabela FORMAS_DE_PAGAMENTO';
 COMMENT ON COLUMN GAMES.COMPRAS.CMP_DATA IS
 'Data em que a compra foi realizada';
 COMMENT ON COLUMN GAMES.COMPRAS.CMP_VALOR_TOTAL IS
@@ -33,10 +36,9 @@ COMMENT ON TABLE GAMES.ITENS_DE_COMPRA IS
 'Tabela com os itens da compra, não pode ser nula';
 COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_JGS_ID IS
 'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela JOGOS, não pode ser nula'; --x
-COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_CMP_USU_ID IS
+COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_CMP_ID IS
 'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela COMPRAS, não pode ser nula'; --x
-COMMENT ON COLUMN GAMES.ITENS_DE_COMPRA.ITC_CMP_DATA IS
-'Chave primária da tabela ITENS_DE_COMPRA, uma chave estrangeira que vem da tabela COMPRAS, não pode ser nula'; --x
+
 
 COMMENT ON TABLE GAMES.DESENVOLVEDORAS IS
 'Tabela com dados das empresas desenvolvedoras, não pode ser nula';
