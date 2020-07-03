@@ -1,0 +1,10 @@
+SELECT
+  ROUND(SYSDATE-CMP.CMP_DATA) || ' dia(s)' AS "Dias desde a última compra",
+  TO_CHAR(CMP.CMP_DATA, 'dd/MM/yyyy') AS "Data",
+  USU.USU_PNOME || ' ' || USU.USU_MNOME AS "Usuário que comprou"
+FROM
+  COMPRAS CMP
+  JOIN USUARIOS USU ON (USU.USU_ID = CMP.CMP_USU_ID)
+WHERE
+  CMP.CMP_DATA = (SELECT MAX(CMP_DATA) FROM COMPRAS)
+;
